@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export default function Login() {
   const handleClick = () => {
     const clientId = '77c83d66efbc41c4963a4a7fcda68dd8';
-    const redirectUrl = 'http://localhost:5173/';
+    // const redirectUrl = 'http://localhost:5173/';
+    const redirectUrl = 'https://effortless-torte-1711c4.netlify.app'
     const apiUrl = 'https://accounts.spotify.com/authorize';
     const scope = [
       'user-read-email',
